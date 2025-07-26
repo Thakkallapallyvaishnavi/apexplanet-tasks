@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>User Dashboard</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="dashboard.html" class="active">Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="dashboard">
+      <h2>Live Data</h2>
+      <button onclick="fetchData()">Load Data</button>
+      <div id="output"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
