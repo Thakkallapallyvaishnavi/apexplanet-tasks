@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 2 - Intermediate Web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <!-- Contact Form -->
+  <section class="form-section">
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- To-Do Section -->
+  <section class="todo-section">
+    <h2>To-Do List</h2>
+    <input type="text" id="todoInput" placeholder="Enter task">
+    <button onclick="addTask()">Add</button>
+    <ul id="todoList"></ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Web App</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
