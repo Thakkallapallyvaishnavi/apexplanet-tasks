@@ -1,0 +1,59 @@
+/* Body Styling */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    color: darkgreen;
+}
+
+/* Paragraph Styling */
+p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Image Styling */
+img {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Link Styling */
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ccc;
+    color: #333;
+    font-size: 14px;
+}
